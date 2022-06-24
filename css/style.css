@@ -6,14 +6,10 @@
   box-sizing: border-box;
 }
 
-html {
-  font-size: 62.5%;
-}
-
 body {
   position: relative;
   color: #3c3c3c;
-  font-size: 1.8rem;
+  font-size: 18px;
   font-family: "M PLUS 1p", sans-serif;
   overflow-x: hidden;
 }
@@ -47,3 +43,36 @@ a {
 }
 
 /*---- PLEASE WRITE CSS BELOW ----*/
+.MainDescription {
+  display: flex;
+  margin: 0 auto;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  max-width: 1000px;
+}
+
+.MainDescription img {
+  width: 320px;
+}
+
+.MainDescription .subtitle {
+  font-size: 18px;
+  letter-spacing: 0.1em;
+  font-weight: bold;
+  line-height: 1.75rem;
+  margin-bottom: 1rem;
+}
+
+.MainDescription .title{
+  font-size: 36px;
+  letter-spacing: 0.1em;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+.MainDescription .subtext{
+  font-size: 16px;
+  letter-spacing: 0.025em;
+  line-height: 2;
+}
+
